@@ -13,6 +13,7 @@ main(){
 	process=clock();
 	char a = 'a';
 	int i=0;
+	printf("Press any key to stop the test...\n\n");
 	while(!kbhit())
 	{
 		fprintf(output ,"%c", a);
