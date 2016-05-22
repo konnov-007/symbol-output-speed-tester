@@ -30,6 +30,7 @@ main(){
 	fprintf(result, " %2.3f", outputTime);
 	fprintf(result, " seconds.");
 	fprintf(result, "\n%d / %2.3f = %lf\n\n", i, outputTime, (double)i/outputTime );
+        fclose(result);
 	getch();
 	getch();
 	printf("\n\nPress any key to exit...");
